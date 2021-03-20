@@ -14,7 +14,7 @@ cask "vlc"
 
 # System
 brew "mas"
-brew "smcfancontrol"
+cask "smcfancontrol"
 
 # Images, Audio, Video
 brew "ffmpeg"
