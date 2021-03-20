@@ -3,6 +3,7 @@
 
 1. Install `.ssh`
 1. Install CLT
+    This install Git
     ```
     $ xcode-select --install
     ```
@@ -23,6 +24,8 @@
 ## Any Order
 
 * Setup System Preferences > Internet Accounts
+  - iCloud
+  - Google
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds
