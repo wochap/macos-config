@@ -17,6 +17,12 @@
 
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
+1. Install
+    ```
+    $ cd macos-config
+    $ ./.macos
+    $ brew bundle
+    ```
 
 ## Any Order
 
@@ -26,4 +32,3 @@
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds
-* Setup function keys
