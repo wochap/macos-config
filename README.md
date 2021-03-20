@@ -13,13 +13,10 @@
     $ git config --global user.email gean.marroquin@gmail.com
     ```
 1. Install Xcode
-1. Install Homebrew
-    ```
-    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
+1. Install [Homebrew](https://brew.sh)
 
-1. Install nix
-1. https://github.com/LnL7/nix-darwin
+1. Install [nix](https://nixos.org/download.html)
+1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
 
 ## Any Order
 

@@ -19,6 +19,7 @@ sudo nvram SystemAudioVolume=" "
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
 defaults write com.apple.dock autohide -bool true
+defaults write "Apple Global Domain" com.apple.keyboard.fnState -bool true
 
 ####################################
 # Screen
