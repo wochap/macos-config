@@ -9,7 +9,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 cask "visual-studio-code"
+cask "iterm2"
 cask "firefox"
+cask "google-chrome"
 cask "vlc"
 
 # System

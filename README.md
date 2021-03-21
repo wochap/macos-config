@@ -23,9 +23,6 @@
     $ ./.macos
     $ brew bundle
     ```
-1. VSCode sync settings
-1. Firefox sync settings
-1. Chrome sync settings
 
 ## Any Order
 
@@ -35,3 +32,9 @@
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds
+
+## Setup
+
+1. VSCode sync settings
+1. Firefox sync settings
+1. Chrome sync settings
