@@ -17,6 +17,11 @@
 
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
+    Default config location: `~/.nixpkgs/darwin-configuration.nix`
+    ```
+    # Clone nix-config
+    $ darwin-rebuild switch -I darwin-config=$HOME/nix-config/devices/darwin.nix
+    ```
 1. Install
     ```
     $ cd macos-config

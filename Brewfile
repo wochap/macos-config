@@ -13,6 +13,7 @@ cask "iterm2"
 cask "firefox"
 cask "google-chrome"
 cask "vlc"
+cask "postman"
 
 # System
 brew "mas"
