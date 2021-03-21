@@ -20,7 +20,7 @@
     Default config location: `~/.nixpkgs/darwin-configuration.nix`
     ```
     # Clone nix-config
-    $ darwin-rebuild switch -I darwin-config=$HOME/nix-config/devices/darwin.nix
+    $ darwin-rebuild switch -I darwin-config=/Users/gean/nix-config/devices/mbp-darwin.nix
     ```
 1. Install
     ```
