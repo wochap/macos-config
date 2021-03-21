@@ -29,6 +29,10 @@
 * Setup System Preferences > Internet Accounts
   - iCloud
   - Google
+* Setup System Preferences > Mission Control
+  - Automatically rearrange Spaces... (False)
+  - Group windows by application... (True)
+* Setup System Preferences >  Spotlight
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds
