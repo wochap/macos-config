@@ -4,6 +4,7 @@
 
 ### In Order
 
+1. Login App Store
 1. Install `.ssh`
     Example:
     ```
@@ -34,6 +35,7 @@
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
     Default `nix-darwin` config location: `~/.nixpkgs/darwin-configuration.nix`
+    **IMPORTANT** run with `bash`.
     ```
     # Clone nix-config to ~/nix-config
     $ git clone git@github.com:wochap/nix-config.git ~/nix-config
@@ -41,7 +43,11 @@
     # Build
     $ darwin-rebuild switch -I darwin-config=/Users/gean/nix-config/devices/mbp-darwin.nix
     ```
+    In case zsh gives logs
+    ```
+    $ compaudit | xargs chmod g-w,o-w
 1. [Enable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) after darwin-build
+    ```
 
 ### Any Order
 
