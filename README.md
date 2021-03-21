@@ -38,6 +38,7 @@
   - Automatically rearrange Spaces... (False)
   - Group windows by application... (True)
 * Setup System Preferences >  Spotlight
+* Setup Disable auto brightness
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds

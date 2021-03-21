@@ -15,6 +15,7 @@ cask "google-chrome"
 cask "vlc"
 cask "postman"
 cask "zoom"
+cask "kitty"
 
 # System
 brew "mas"
