@@ -18,9 +18,14 @@
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
     Default config location: `~/.nixpkgs/darwin-configuration.nix`
+    **IMPORTANT** run with `bash`.
     ```
     # Clone nix-config
     $ darwin-rebuild switch -I darwin-config=/Users/gean/nix-config/devices/mbp-darwin.nix
+    ```
+    In case zsh gives logs
+    ```
+    $ compaudit | xargs chmod g-w,o-w
     ```
 1. Install
     ```
