@@ -30,6 +30,7 @@
     $ cd ~/macos-config
     $ brew bundle
     ```
+1. [Disable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection)
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
     Default `nix-darwin` config location: `~/.nixpkgs/darwin-configuration.nix`
@@ -40,6 +41,7 @@
     # Build
     $ darwin-rebuild switch -I darwin-config=/Users/gean/nix-config/devices/mbp-darwin.nix
     ```
+1. [Enable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) after darwin-build
 
 ### Any Order
 
