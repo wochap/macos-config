@@ -4,6 +4,7 @@
 
 ### In Order
 
+1. Login App Store
 1. Install `.ssh`
     Example:
     ```
