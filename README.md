@@ -64,6 +64,9 @@
 * Setup Night Shift
 * Setup Battery GPU switching
 * Setup Backgrounds
+* Setup keyboard
+  > Shortcuts
+  > Keyboard > Modifier Keys
 
 ## Post setup
 
