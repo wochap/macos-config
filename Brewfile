@@ -18,6 +18,7 @@ cask "zoom"
 cask "kitty"
 # cask "karabiner-elements"
 cask "figma"
+cask "alt-tab"
 
 # System
 brew "mas"
