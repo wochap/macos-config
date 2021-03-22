@@ -16,9 +16,12 @@ cask "vlc"
 cask "postman"
 cask "zoom"
 cask "kitty"
+# cask "karabiner-elements"
+cask "figma"
 
 # System
 brew "mas"
+brew "jq"
 cask "smcfancontrol"
 
 # Images, Audio, Video
@@ -26,3 +29,4 @@ brew "ffmpeg"
 
 # App Store
 mas "Slack", id: 803453959
+mas "CopyClip - Clipboard History", id: 595191960

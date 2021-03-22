@@ -33,6 +33,7 @@
     ```
 1. [Disable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection)
 1. [Install yabai](https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release))
+1. [Install skhd](https://github.com/koekeishiya/skhd)
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
     Default `nix-darwin` config location: `~/.nixpkgs/darwin-configuration.nix`
