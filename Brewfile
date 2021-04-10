@@ -19,6 +19,7 @@ cask "kitty"
 # cask "karabiner-elements"
 cask "figma"
 cask "alt-tab"
+cask "finicky"
 
 # System
 brew "mas"
