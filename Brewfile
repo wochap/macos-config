@@ -22,6 +22,7 @@ cask "obs"
 cask "figma"
 cask "alt-tab"
 cask "finicky"
+# cask "streamlabs-obs" # OBS with audio?
 
 # System
 brew "mas"
