@@ -73,3 +73,17 @@
 1. VSCode sync settings
 1. Firefox sync settings
 1. Chrome sync settings
+
+## Troubleshooting
+
+* warning: Nix search path entry '/nix/var/nix/profiles/per-user/root/channels' does not exist
+
+```
+$ nix-channel --update
+```
+
+* [opening lock file Permission denied](https://forum.holochain.org/t/nix-shell-tips-opening-lock-file-permission-denied/5173)
+
+```
+$ sudo chown -R <username>:staff /nix
+```
