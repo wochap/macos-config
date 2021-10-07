@@ -23,6 +23,7 @@ cask "obs"
 cask "figma"
 cask "alt-tab"
 cask "finicky"
+cask "bitwarden"
 # cask "streamlabs-obs" # OBS with audio?
 
 # System
