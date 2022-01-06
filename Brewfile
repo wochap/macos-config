@@ -21,7 +21,6 @@ cask "vlc"
 cask "postman"
 cask "insomnia"
 cask "zoom"
-cask "kitty"
 cask "keka"
 # cask "obs"
 # cask "karabiner-elements"
@@ -30,6 +29,7 @@ cask "alt-tab"
 cask "finicky"
 cask "bitwarden"
 # cask "streamlabs-obs" # OBS with audio?
+brew "lua-language-server"
 
 # System
 brew "mas"

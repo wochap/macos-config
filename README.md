@@ -37,13 +37,20 @@
 1. Install [nix](https://nixos.org/download.html)
 1. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
     Default `nix-darwin` config location: `~/.nixpkgs/darwin-configuration.nix`
-    **IMPORTANT** run with `bash`.
+    **IMPORTANT** run with `bash`?.
     ```
     # Clone nix-config to ~/nix-config
     $ git clone git@github.com:wochap/nix-config.git ~/nix-config
 
-    # Build
+    # Build (only first time)
     $ darwin-rebuild switch -I darwin-config=/Users/gean/nix-config/devices/mbp-darwin.nix
+
+    # Build with flakes (only first time)
+    $ nix build .#darwinConfigurations.mbp-darwin.system
+    $ ./result/sw/bin/darwin-rebuild switch --flake .#mbp-darwin
+
+    # After updating config
+    $ darwin-rebuild switch --flake .#mbp-darwin
     ```
     In case zsh gives logs
     ```
@@ -86,4 +93,11 @@ $ nix-channel --update
 
 ```
 $ sudo chown -R <username>:staff /nix
+```
+
+## Guides
+
+```sh
+# Start mongodb
+$ brew services start mongodb/brew/mongodb-community
 ```
