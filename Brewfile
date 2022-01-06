@@ -7,7 +7,12 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "mongodb/brew"
 
+# Development
+cask "robo-3t"
+brew "mongodb-database-tools"
+brew "mongodb-community@5.0"
 # cask "visual-studio-code"
 cask "iterm2"
 # cask "firefox"
