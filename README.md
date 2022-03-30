@@ -106,3 +106,7 @@ $ sudo chown -R <username>:staff /nix
 # Start mongodb
 $ brew services start mongodb/brew/mongodb-community
 ```
+
+## Resources
+
+* https://daiderd.com/nix-darwin/manual/index.html#sec-options

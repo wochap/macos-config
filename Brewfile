@@ -11,6 +11,7 @@ tap "mongodb/brew"
 
 # Development
 cask "robo-3t"
+brew "clipcopy"
 brew "mongodb-database-tools"
 brew "mongodb-community@5.0"
 # cask "visual-studio-code"
