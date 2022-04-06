@@ -62,6 +62,10 @@
     # Clone git@github.com:wochap/nvim.git
     $ git clone git@github.com:wochap/nvim.git ~/.config/nvim
     ```
+1. Setup NodeJS links
+    ```
+    $ ln -s $(which node) /usr/local/bin/node
+    ```
 
 ### Any Order
 
